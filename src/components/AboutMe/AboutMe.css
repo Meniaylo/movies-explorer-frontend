@@ -1,0 +1,45 @@
+.about-me {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.about-me__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 66px;
+  gap: 270px;
+}
+
+.about-me__name {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  margin: 0 0 18px;
+}
+
+.about-me__info {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.about-me__description {
+  font-size: 14px;
+  line-height: 22px;
+  margin: 26px 0 99px;
+}
+
+.about-me__repository-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.about-me__pic {
+  max-width: 270px;
+  max-height: 327px;
+  border-radius: 10px;
+}

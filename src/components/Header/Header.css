@@ -2,7 +2,12 @@
   padding: 18px 70px;
   display: flex;
   justify-content: space-between;
-  z-index: 1;
+}
+
+.header_absolute {
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .header__logo {
@@ -10,16 +15,54 @@
   width: 38px;
 }
 
-.header__authorization {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header__registration {
+.header__item {
   margin: 0 30px;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__item_signed-in {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 10px;
+}
+
+.header__item_signed-in:first-child {
+  font-weight: 500;
+}
+
+.header__item_signed-in:last-child {
+  margin-right: 0;
+}
+
+.header__account-link {
+  display: flex;
+  gap: 13px;
+  margin: 0 0 0 30px;
+}
+
+.header__figcaption {
+  line-height: 30px;
+}
+
+.header__account-icon {
+  width: 30px;
+  height: 30px;
+  background: #313131;
+  border-radius: 6px;
+  background-image: url('../../images/account-ico.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
 }
 
 .header__button {
@@ -30,5 +73,8 @@
   border-radius: 3px;
   font-weight: 500;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 32px;
+  text-align: center;
+  color:#000;
+  text-decoration: none;
 }

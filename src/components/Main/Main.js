@@ -1,21 +1,24 @@
 import React from "react";
 import './Main.css';
 import Promo from '../Promo/Promo';
-import NavTab from '../NavTab/NAvTab';
-// import AboutProject from '../AboutProject';
-// import Techs from '../Techs/Techs';
-// import AboutMe from '../AboutMe/AboutMe';
+import NavTab from '../NavTab/NavTab';
+import AboutProject from '../AboutProject/AboutProject';
+import Techs from '../Techs/Techs';
+import AboutMe from '../AboutMe/AboutMe';
+import Portfolio from '../Portfolio/Portfolio';
 
-const Main = () => {
+function Main () {
+
   return (
     <section className='main'>
       <Promo />
       <NavTab />
-      {/* <AboutProject />
+      <AboutProject />
       <Techs />
-      <AboutMe /> */}
+      <AboutMe />
+      <Portfolio />
     </section>
-  )
-}
+  );
+};
 
 export default Main;

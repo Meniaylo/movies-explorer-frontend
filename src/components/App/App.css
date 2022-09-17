@@ -4,19 +4,37 @@
   flex-direction: column;
   flex-wrap: wrap;
   min-height: 100vh;
+  width: 100vw;
   max-width: 1280px;
   min-width: 320px;
   margin: 0 auto;
-  font-family: 'Inter', Woff, Arial, sans-serif;
+  font-family: "Inter", "Woff", Arial, sans-serif;
   font-weight: 400;
+  /* letter-spacing: -0.04em; */
   color: #fff;
 }
 
 .link {
   opacity: 100%;
-  transition: opacity 1s ease;
+  transition: opacity .5s ease;
+  cursor: pointer;
 }
 
 .link:hover {
   opacity: 30%;
+}
+
+.section {
+  width: calc(100% - 140px);
+}
+
+.section__title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  width: 100%;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #DADADA;
+  box-sizing: border-box;
+  margin: 0;
 }
