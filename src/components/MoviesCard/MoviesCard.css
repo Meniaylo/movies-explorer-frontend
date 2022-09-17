@@ -49,6 +49,10 @@
   background-image: url('../../images/save-film-ico-active.svg');
 }
 
+.movie-card__button_saved-list {
+  background-image: url('../../images/delete-film-from-saved-list.svg');
+}
+
 .movie-card__img {
   height: 203px;
   width: 364px;

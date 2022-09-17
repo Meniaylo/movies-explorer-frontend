@@ -2,7 +2,7 @@ import { useState } from "react";
 import './MoviesCard.css';
 import testingCard from '../../utils/constants';
 
-function MoviesCard () {
+function MoviesCard ({ isThisSavedList }) {
 
   const [isMovieSaved, setIsMovieSaved] = useState(false);
 
@@ -18,7 +18,7 @@ function MoviesCard () {
           <p className='movie-card__film-length'>{testingCard.length}</p>
         </div>
 
-        <button className={`movie-card__button ${isMovieSaved && 'movie-card__button_active'} link`} onClick={handleMovieSave}></button>
+        <button className={`movie-card__button ${isMovieSaved && !isThisSavedList && 'movie-card__button_active'} ${isThisSavedList && 'movie-card__button_saved-list'} link`} onClick={handleMovieSave}></button>
       </div>
 
       <a href={testingCard.link} target='blank' rel='noopener noreferrer' title='Посмотреть трейлер фильма'>
