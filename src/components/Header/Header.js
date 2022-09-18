@@ -3,7 +3,7 @@ import './Header.css';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../images/logo.svg';
 
-function Header () {
+function Header ({ isLoggedIn }) {
 
   const location = useLocation();
   // const [isMenuOpened, setIsMenuOpened] = useState(false);
@@ -31,7 +31,7 @@ function Header () {
         </>
       )}
 
-      {location.pathname === '/movies' && (
+      {isLoggedIn && (
         <>
           <Link className="header__item header__item_signed-in link" to='/movies'>Фильмы</Link>
           <Link className='header__item header__item_signed-in link' to='/saved-movies'>Сохранённые фильмы</Link>

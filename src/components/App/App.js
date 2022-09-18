@@ -8,6 +8,7 @@ import Movies from '../Movies/Movies';
 import SavedMovies from '../SavedMovies/SavedMovies';
 import Register from '../Register/Register';
 import Login from '../Login/Login';
+import Profile from '../Profile/Profile';
 
 function App() {
 
@@ -45,14 +46,19 @@ function App() {
         }/>
 
         <Route path='/signup' element={
-          <>
-            <Register />
-          </>
+          <Register />
         }/>
 
         <Route path='/signin' element={
-          <>
             <Login />
+        }/>
+
+        <Route path='/profile' element={
+          <>
+            <Header
+              isLoggedIn={true}
+            />
+            <Profile />
           </>
         }/>
 
