@@ -6,6 +6,7 @@ import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 import Movies from '../Movies/Movies';
 import SavedMovies from '../SavedMovies/SavedMovies';
+import Register from '../Register/Register';
 
 function App() {
 
@@ -39,6 +40,12 @@ function App() {
             />
             <SavedMovies />
             <Footer />
+          </>
+        }/>
+
+        <Route path='/signup' element={
+          <>
+            <Register />
           </>
         }/>
 

@@ -1,5 +1,7 @@
 import './SearchForm.css';
 import FilterCheckbox from '../FilterCheckbox/FilterCheckbox';
+import Input from '../Input/Input';
+import SubmitButton from '../SubmitButton/SubmitButton';
 
 function SearchForm () {
 
@@ -13,21 +15,20 @@ function SearchForm () {
 
         <div className='search-form__container' >
 
-          <input
-            className='search-form__input'
+          <Input
             type='text'
             name='movie-request'
-            value={'' || ''}
             placeholder='Фильм'
-            autofocus
-            required
           />
 
-          <button
+          {/* <button
             className='search-form__submit-btn link'
             type='submit'
           >Найти
-          </button>
+          </button> */}
+          <SubmitButton
+            text='Найти'
+          />
 
           <span className='search-form__error'>
           </span>

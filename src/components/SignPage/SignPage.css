@@ -1,0 +1,54 @@
+.sign-page {
+  max-width: 396px;
+  width: 100%;
+  margin: 70px auto;
+}
+
+.sign-page__logo {
+  width: 38px;
+  height: 38px;
+}
+
+.sign-page__title {
+  margin: 40px auto 20px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.sign-form__container {
+  margin-bottom: 91px;
+}
+
+.sign-form_label {
+  display: block;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8B8B8B;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sign-page__redirect-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sign-page__redirect-text {
+  display: inline;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8B8B8B;
+  margin: 0 3px;
+}
+
+.sign-page__redirect-text_link {
+  color: #7B3465;
+  text-decoration: none;
+}
