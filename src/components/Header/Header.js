@@ -26,14 +26,14 @@ function Header ({ isLoggedIn }) {
 
       {location.pathname === '/' && (
         <>
-          <Link className="header__item link" to='/signup'>Регистрация</Link>
+          <Link className='header__item link' to='/signup'>Регистрация</Link>
           <Link className='header__button link' to='/signin'>Войти</Link>
         </>
       )}
 
       {isLoggedIn && (
         <>
-          <Link className="header__item header__item_signed-in link" to='/movies'>Фильмы</Link>
+          <Link className='header__item header__item_signed-in link' to='/movies'>Фильмы</Link>
           <Link className='header__item header__item_signed-in link' to='/saved-movies'>Сохранённые фильмы</Link>
           <Link className='header__item header__item_signed-in link' to='/profile'>
             <figure className='header__account-link'>

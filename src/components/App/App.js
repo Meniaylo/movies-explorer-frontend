@@ -9,6 +9,7 @@ import SavedMovies from '../SavedMovies/SavedMovies';
 import Register from '../Register/Register';
 import Login from '../Login/Login';
 import Profile from '../Profile/Profile';
+import NotFound from '../NotFound/NotFound';
 
 function App() {
 
@@ -60,6 +61,10 @@ function App() {
             />
             <Profile />
           </>
+        }/>
+
+        <Route path='*' element={
+            <NotFound />
         }/>
 
       </Routes>
