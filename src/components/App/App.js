@@ -7,6 +7,7 @@ import Footer from '../Footer/Footer';
 import Movies from '../Movies/Movies';
 import SavedMovies from '../SavedMovies/SavedMovies';
 import Register from '../Register/Register';
+import Login from '../Login/Login';
 
 function App() {
 
@@ -46,6 +47,12 @@ function App() {
         <Route path='/signup' element={
           <>
             <Register />
+          </>
+        }/>
+
+        <Route path='/signin' element={
+          <>
+            <Login />
           </>
         }/>
 

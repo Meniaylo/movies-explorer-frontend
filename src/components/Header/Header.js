@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Header.css';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../images/logo.svg';
@@ -6,7 +6,7 @@ import logo from '../../images/logo.svg';
 function Header () {
 
   const location = useLocation();
-  const [isMenuOpened, setIsMenuOpened] = useState(false);
+  // const [isMenuOpened, setIsMenuOpened] = useState(false);
 
   // const toggleMenu = () => {
   //   !isMenuOpened ? setIsMenuOpened(true) : setIsMenuOpened(false);

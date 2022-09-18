@@ -1,5 +1,4 @@
 import React from 'react';
-import './Register.css';
 import SignPage from '../SignPage/SignPage';
 
 function Register () {
@@ -10,6 +9,7 @@ function Register () {
         submitText='Зарегистрироваться'
         questionText='Уже зарегистрированы?'
         linkText='Войти'
+        linkAddress='/signin'
       />
   );
 };
