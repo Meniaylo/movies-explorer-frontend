@@ -4,7 +4,7 @@ function Footer () {
 
 
   return (
-    <footer className="section footer">
+    <footer className="footer">
       <h2 className="footer__text">Учебный проект Яндекс.Практикум х BeatFilm.</h2>
 
       <div className="footer__info">
