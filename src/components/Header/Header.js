@@ -18,7 +18,7 @@ function Header ({ isLoggedIn }) {
   }
 
   return (
-    <header className={`header ${(location.pathname === '/') && 'header_absolute'}`}>
+    <header className={`header ${(location.pathname === '/') && 'header_main-blue'}`}>
 
       <NavLink to='/' className='link'>
         <img className='header__logo' src={logo} alt='Логотип'/>

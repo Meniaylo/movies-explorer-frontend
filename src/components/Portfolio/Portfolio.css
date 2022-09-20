@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0 70px 105px;
+  letter-spacing: -0.04em;
 }
 
 .portfolio__title {
@@ -50,5 +51,32 @@
 
   .portfolio__link {
     font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 598px){
+  .portfolio {
+    padding: 0 25px 105px;
+  }
+
+  .portfolio__title {
+    font-size: 14px;
+    margin: 40px 0;
+  }
+
+  .portfolio__link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .portfolio {
+    padding: 0 18px 49px;
+    margin-top: 0;
+  }
+
+  .portfolio__title {
+    margin: 0 0 20px;
   }
 }
