@@ -42,3 +42,13 @@
 .portfolio__link-text {
   margin: 0;
 }
+
+@media screen and (max-width: 769px){
+  .portfolio {
+    padding: 0 50px 70px;
+  }
+
+  .portfolio__link {
+    font-size: 28px;
+  }
+}

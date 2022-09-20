@@ -5,6 +5,7 @@
   align-items: center;
   font-size: 13px;
   line-height: 16px;
+  width: calc(100% - 60px);
 }
 
 .footer__text {
@@ -38,4 +39,10 @@
   text-decoration: none;
   color: #fff;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 769px){
+  .footer {
+    padding: 80px 30px 20px;
+  }
 }

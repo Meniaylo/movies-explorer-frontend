@@ -59,3 +59,17 @@
   object-fit: contain;
   object-position: center center;
 }
+
+@media screen and (max-width: 769px){
+  .movie-card {
+    width: 339px;
+    height: 258px;
+  }
+
+  .movie-card__img {
+    height: 190px;
+    width: 339px;
+    object-fit: contain;
+    object-position: center center;
+  }
+}

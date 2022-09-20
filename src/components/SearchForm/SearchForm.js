@@ -21,11 +21,6 @@ function SearchForm () {
             placeholder='Фильм'
           />
 
-          {/* <button
-            className='search-form__submit-btn link'
-            type='submit'
-          >Найти
-          </button> */}
           <SubmitButton
             text='Найти'
           />

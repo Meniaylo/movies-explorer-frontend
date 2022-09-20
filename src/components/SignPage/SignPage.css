@@ -56,3 +56,10 @@
   color: #7B3465;
   text-decoration: none;
 }
+
+@media screen and (max-width: 769px){
+  .sign-page {
+    max-width: 396px;
+    margin: 232px auto;
+  }
+}

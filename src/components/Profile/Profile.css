@@ -74,3 +74,17 @@
   background: none;
   color: #EE3465;
 }
+
+@media screen and (max-width: 769px){
+  .profile {
+    margin: 218px auto 269px;
+  }
+
+  .profile-form {
+    margin-top: calc(96px - 16px - 20px);
+  }
+
+  .profile-form__submit-btn {
+    margin-top: 194px;
+  }
+}

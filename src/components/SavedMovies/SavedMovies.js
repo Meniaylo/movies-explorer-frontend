@@ -6,12 +6,12 @@ import MoviesCardList from '../MoviesCardList/MoviesCardList';
 function SavedMovies () {
 
   return (
-    <section className='movies'>
+    <section className='saved-movies'>
       <SearchForm />
       {/* <Preloader /> */}
       <MoviesCardList isThisSavedList={true} />
 
-      <button className='movies__load-more-btn link'>Ещё</button>
+      <button className='saved-movies__load-more-btn link'>Ещё</button>
 
     </section>
   );
