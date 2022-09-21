@@ -1,1 +1,7 @@
-макет: https://www.figma.com/file/ZXD19J4DX8ESgzzeFq2xdx/Meniaylo-diploma?node-id=932%3A2618
+# Фронтенд-часть проекта "Movies Explorer"
+------------------
+
+Дипломный проект по напралению "Веб-разработка". Включает в себя отзывчивую верстку с настроенным роутингом.
+
+
+Макет: https://www.figma.com/file/ZXD19J4DX8ESgzzeFq2xdx/Meniaylo-diploma?node-id=932%3A2618
