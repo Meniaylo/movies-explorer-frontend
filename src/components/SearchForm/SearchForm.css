@@ -23,3 +23,13 @@
   line-height: 12px;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 430px){
+  .search {
+    padding-bottom: 44px;
+  }
+
+  .search-form {
+    gap: 46px;
+  }
+}

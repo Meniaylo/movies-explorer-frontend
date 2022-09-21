@@ -43,3 +43,9 @@
   font-size: 12px;
   line-height: 18px;
 }
+
+@media screen and (max-width: 430px){
+  .checkbox__caption {
+    font-size: 11px;
+  }
+}

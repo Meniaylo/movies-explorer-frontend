@@ -22,9 +22,21 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 892px){
   .saved-movies {
     width: calc(100% - 60px);
-    padding: 80px 30px 54px;
+    padding: 80px 30px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .saved-movies {
+    width: calc(100% - 20px);
+    padding: 53px 10px;
+  }
+
+  .saved-movies__load-more-btn {
+    max-width: 240px;
+    width: 100%;
   }
 }

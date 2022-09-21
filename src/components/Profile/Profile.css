@@ -38,10 +38,7 @@
   font-weight: 500;
   font-size: 11px;
   line-height: 13px;
-  width: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  width: 44px;
 }
 
 .profile-form__input {
@@ -86,5 +83,40 @@
 
   .profile-form__submit-btn {
     margin-top: 194px;
+  }
+}
+
+@media screen and (max-width: 598px){
+  .profile {
+    margin: 50px auto 40px;
+  }
+
+  .profile-form {
+    margin-top: 43px;
+  }
+
+  .profile-form__container {
+    gap: 10px;
+  }
+
+  .profile-form__submit-btn {
+    margin-top: 150px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .profile-form__exit-btn {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .profile {
+    max-width: 260px;
+  }
+
+  .profile-form__submit-btn {
+    margin-top: 363px;
   }
 }

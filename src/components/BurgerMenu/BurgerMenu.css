@@ -91,3 +91,15 @@
     max-width: 520px;
   }
 }
+
+@media screen and (max-width: 430px){
+  .burger-menu__container {
+    left: 0;
+    padding: 144px 10px 48px;
+  }
+
+  .burger-menu__link {
+    margin-bottom: 24px;
+    padding-bottom: 4px;
+  }
+}
