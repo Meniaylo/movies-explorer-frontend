@@ -1,0 +1,21 @@
+.submit-btn {
+  height: 45px;
+  width: 100%;
+  background: #7B3465;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  align-self: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 430px){
+  .submit-btn {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

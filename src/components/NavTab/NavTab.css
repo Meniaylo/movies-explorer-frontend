@@ -1,0 +1,33 @@
+.nav {
+  background-color: #272727;
+  width: 100%;
+  padding: auto 24px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 25px 0;
+  justify-content: center;
+}
+
+.nav__link {
+  text-decoration: underline;
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 510px){
+  .nav__links {
+    gap: 24px;
+  }
+
+  .nav__link {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

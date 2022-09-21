@@ -1,0 +1,59 @@
+.not-found {
+  max-width: 400px;
+  margin: 246px auto 60px;
+  text-align: center;
+}
+
+.not-found__code {
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 169px;
+  text-align: center;
+  margin: 0;
+}
+
+.not-found__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 5px;
+  margin-bottom: 184px;
+}
+
+.not-found__goBack-btn {
+  font-size: 14px;
+  line-height: 17px;
+  color: #7B3465;
+  border: none;
+  background: none;
+}
+
+@media screen and (max-width: 769px){
+  .not-found {
+    margin: 408px auto 222px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .not-found {
+    margin: 329px auto 30px;
+    max-width: 280px;
+  }
+
+  .not-found__code {
+    font-size: 80px;
+    line-height: 97px;
+  }
+
+  .not-found__title {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-bottom: 284px;
+  }
+
+  .not-found__goBack-btn {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

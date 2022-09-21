@@ -1,0 +1,105 @@
+.burger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: -2;
+  transition: .5s ease-out;
+}
+
+.burger-menu__active {
+  opacity: 1;
+  right: 0;
+  z-index: 1;
+}
+
+.burger-menu__container {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #202020;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 30%;
+  bottom: 0;
+  padding: 159px 30px 99px;
+}
+
+.burger-menu__info-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.burger-menu__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 28px;
+  padding-bottom: 4px;
+}
+
+.burger-menu__link:nth-of-type(2n) {
+  border-bottom: 2px solid #fff;
+}
+
+.burger-menu__account-link {
+  display: flex;
+  gap: 13px;
+  margin: 0;
+  align-items: center;
+}
+
+.burger-menu__figcaption {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.burger-menu__account-icon {
+  width: 30px;
+  height: 30px;
+  background: #313131;
+  border-radius: 6px;
+  background-image: url('../../images/account-ico.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+@media screen and (min-width: 769px){
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .burger-menu {
+    max-width: 520px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .burger-menu__container {
+    left: 0;
+    padding: 144px 10px 48px;
+  }
+
+  .burger-menu__link {
+    margin-bottom: 24px;
+    padding-bottom: 4px;
+  }
+}

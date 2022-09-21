@@ -1,0 +1,135 @@
+.about-project {
+  padding: 110px 70px;
+}
+
+.about-project__stages {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 110px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.about-project__stages-column {
+  text-decoration: none;
+}
+
+.about-project__column-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+.about-project__column-text {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.about-project__deadlines {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.about-project__long-stage {
+  grid-column: 2/-1;
+}
+
+.about-project__term {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 0;
+  padding: 9px;
+}
+
+.about-project__term_short {
+  background-color: #7C9C34;
+  color: #000;
+}
+
+.about-project__term_long {
+  background-color: #303030;
+}
+
+.about-project__topic {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8B8B8B;
+  margin: 14px auto 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 769px){
+  .about-project {
+    padding: 90px 50px;
+  }
+
+  .about-project__stages {
+    margin-bottom: 93px;
+    gap: 30px;
+  }
+
+  .about-project__column-title {
+    margin-bottom: 22px;
+  }
+
+  .about-project__column-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 598px){
+  .about-project {
+    padding: 60px 25px;
+  }
+
+  .about-project__stages {
+    gap: 30px;
+  }
+
+  .about-project__column-title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+
+  .about-project__column-text {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about-project__term {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .about-project__topic {
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .about-project {
+    padding: 60px 18px;
+  }
+
+  .about-project__stages {
+    margin-top: 60px;
+    flex-direction: column;
+    gap: 56px;
+    margin-bottom: 60px;
+  }
+}

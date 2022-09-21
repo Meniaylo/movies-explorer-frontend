@@ -1,0 +1,35 @@
+.search {
+  padding-bottom: 39px;
+  border-bottom: 1px solid #424242;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.search-form__container {
+  display: grid;
+  grid-template-columns: auto 70px;
+  gap: 10px;
+}
+
+.search-form__error {
+  position: absolute;
+  color: #EE3465;
+  font-family: 'Inter';
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 430px){
+  .search {
+    padding-bottom: 44px;
+  }
+
+  .search-form {
+    gap: 46px;
+  }
+}
