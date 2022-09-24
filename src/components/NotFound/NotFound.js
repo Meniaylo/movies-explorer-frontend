@@ -15,7 +15,7 @@ function NotFound () {
 
       <h2 className='not-found__title'>Страница не найдена</h2>
 
-      <button className='not-found__goBack-btn link' onClick={goBack}>Назад</button>
+      <button className='not-found__goBack-btn link' type='button' onClick={goBack}>Назад</button>
     </section>
   );
 };

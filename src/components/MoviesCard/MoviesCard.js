@@ -18,7 +18,7 @@ function MoviesCard ({ isThisSavedList }) {
           <p className='movie-card__film-length'>{testingCard.length}</p>
         </div>
 
-        <button className={`movie-card__button ${isMovieSaved && !isThisSavedList && 'movie-card__button_active'} ${isThisSavedList && 'movie-card__button_saved-list'} link`} onClick={handleMovieSave}></button>
+        <button className={`movie-card__button ${isMovieSaved && !isThisSavedList && 'movie-card__button_active'} ${isThisSavedList && 'movie-card__button_saved-list'} link`} type='button' onClick={handleMovieSave}></button>
       </div>
 
       <a href={testingCard.link} target='blank' rel='noopener noreferrer' title='Посмотреть трейлер фильма'>

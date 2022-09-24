@@ -40,7 +40,7 @@ function Header ({ isLoggedIn }) {
           <NavLink className='header__item header__item_signed-in link' to='/profile'>
             <figure className='header__account-link'>
               <figcaption className='header__figcaption'>Аккаунт</figcaption>
-              <button className='header__account-icon'></button>
+              <button className='header__account-icon' type='button'></button>
             </figure>
           </NavLink>
         </>
