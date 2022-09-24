@@ -40,7 +40,7 @@ function Profile () {
 
       <button
           className='profile-form__exit-btn link'
-          type='submit'
+          type='button'
         >Выйти из аккаунта
       </button>
 

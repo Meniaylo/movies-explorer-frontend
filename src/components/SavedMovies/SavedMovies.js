@@ -11,7 +11,7 @@ function SavedMovies () {
       {/* <Preloader /> */}
       <MoviesCardList isThisSavedList={true} />
 
-      <button className='saved-movies__load-more-btn link'>Ещё</button>
+      <button className='saved-movies__load-more-btn link' type='button'>Ещё</button>
 
     </section>
   );

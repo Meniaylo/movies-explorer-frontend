@@ -19,7 +19,7 @@ function BurgerMenu ({ isMenuOpened }) {
         <NavLink className='link' to='/profile'>
           <figure className='burger-menu__account-link'>
             <figcaption className='burger-menu__figcaption'>Аккаунт</figcaption>
-            <button className='burger-menu__account-icon'></button>
+            <button className='burger-menu__account-icon' type='button'></button>
           </figure>
         </NavLink>
       </div>
