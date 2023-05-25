@@ -3,6 +3,21 @@ import './NavTab.css';
 
 function NavTab () {
 
+  const anchors = document.querySelectorAll('a.nav__link');
+
+  anchors.forEach((anchor) => {
+    const blockID = anchor.getAttribute('href');
+
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(blockID).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
+    })
+  });
+
   return (
     <section className='nav' aria-label='site-navigation'>
       <nav>

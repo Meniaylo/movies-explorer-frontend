@@ -1,20 +1,20 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 import './FilterCheckbox.css';
 
-function FilterCheckbox () {
+function FilterCheckbox ({ isShortMovies, handleCheckBoxChange }) {
 
-  const [isShortFilm, setIsShortFilm] = useState(false);
+  // const [isShortFilm, setIsShortFilm] = useState(false);
 
-  const handleCheckBoxChange = () => {
-    !isShortFilm ? setIsShortFilm(true) : setIsShortFilm(false);
-  };
+  // const handleCheckBoxChange = () => {
+  //   !isShortFilm ? setIsShortFilm(true) : setIsShortFilm(false);
+  // };
 
   return (
     <figure className='checkbox'>
       <input
         type='checkbox'
-        className={`checkbox__switcher ${!isShortFilm && 'checkbox__switcher_checked'}`}
+        className={`checkbox__switcher ${!isShortMovies && 'checkbox__switcher_checked'}`}
         onChange={handleCheckBoxChange}
       />
       <figcaption className='checkbox__caption'>Короткометражки</figcaption>

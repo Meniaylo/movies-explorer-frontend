@@ -6,7 +6,6 @@ function SubmitButton ({ text }) {
   return (
     <button
       className='submit-btn link'
-      type='submit'
     >{text}
     </button>
   );
