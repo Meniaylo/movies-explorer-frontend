@@ -23,7 +23,7 @@ function SignPage ({ title, submitText, questionText, linkText, linkAddress }) {
 
           {location.pathname === '/signup' && (
             <>
-              <label className='sign-form__label' for='username'>Имя</label>
+              <label className='sign-form__label' htmlFor='username'>Имя</label>
               <Input
                 type='text'
                 name='username'
@@ -34,14 +34,14 @@ function SignPage ({ title, submitText, questionText, linkText, linkAddress }) {
             </>
           )}
 
-          <label className='sign-form__label' for='email'>E-mail</label>
+          <label className='sign-form__label' htmlFor='email'>E-mail</label>
           <Input
             type='email'
             name='email'
             placeholder=''
           />
 
-          <label className='sign-form__label' for='password'>Пароль</label>
+          <label className='sign-form__label' htmlFor='password'>Пароль</label>
           <Input
             type='password'
             name='password'
