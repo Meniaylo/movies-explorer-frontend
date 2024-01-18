@@ -16,14 +16,14 @@ function Portfolio () {
             </li>
 
             <li className='portfolio__item'>
-              <a className='portfolio__link' href='https://meniaylo.github.io/russian-travel/index.html' target='blank' rel='noreferrer'>
+              <a className='portfolio__link' href='https://github.com/Meniaylo/russian-travel' target='blank' rel='noreferrer'>
                 <p className='portfolio__link-text link'>Адаптивный сайт</p>
                 <span className='link'>&#8599;</span>
               </a>
             </li>
 
             <li className='portfolio__item'>
-              <a className='portfolio__link' href='http://meniaylo.nomoredomains.sbs/' target='blank' rel='noreferrer'>
+              <a className='portfolio__link' href='https://github.com/Meniaylo/mesto-react' target='blank' rel='noreferrer'>
                 <p className='portfolio__link-text link'>Одностраничное приложение</p>
                 <span className='link'>&#8599;</span>
               </a>

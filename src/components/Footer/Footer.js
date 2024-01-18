@@ -8,7 +8,7 @@ function Footer () {
       <h2 className='footer__text'>Учебный проект Яндекс.Практикум х BeatFilm.</h2>
 
       <div className='footer__info'>
-        <p className='footer__year'>&copy; 2022</p>
+        <p className='footer__year'>&copy; 2024</p>
 
         <ul className='footer__links'>
           <li>
